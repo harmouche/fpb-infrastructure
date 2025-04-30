@@ -1,0 +1,19 @@
+# CDK asset staging directory
+.cdk.staging
+cdk.out/
+dist/
+dist1/
+
+# TypeScript build output
+*.js
+*.d.ts
+!jest.config.js
+
+# Environment variables
+.env
+
+# Local tunnel scripts
+*-tunnel.sh
+
+# Dependencies
+node_modules/
